@@ -19,6 +19,64 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 0 0 0; }
+  margin: 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.head .home {
+  text-decoration: none;
+  color: black; }
+
+.head .home h4 {
+  font-size: 1rem; }
+
+.copyright {
+  opacity: 0.5;
+  font-size: 0.3rem;
+  margin-top: 10px; }
+
+.menu-bar {
+  margin-left: auto; }
+
+#language-menu,
+#mobile-menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
+
+#language-menu ul,
+#mobile-menu ul {
+  list-style: none; }
+
+#language-menu ul a,
+#mobile-menu ul a {
+  text-decoration: none;
+  color: black; }
+
+.main-image {
+  background: url("../images/home1.png") no-repeat center top;
+  background-size: cover;
+  height: 398px; }
+
+#description {
+  font-size: 0.3rem;
+  opacity: 0.8; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #core {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  .enter-menu h4,
+  .enter-menu p,
+  .enter-menu p,
+  .enter-menu ul h4,
+  .enter-menu ul li p {
+    font-size: 0.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */
