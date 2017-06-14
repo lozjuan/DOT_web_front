@@ -15,7 +15,7 @@
     <header class="head navbar fixed-top" role="banner">
       <div class="container-fluid">
         <a href="index.html" class="home"><h4>Daniel Otero Torres</h4></a>
-        <button type="button" class="menu-bar hidden-lg-up" data-toggle="collapse" data-target="#mobile-menu" aria-expanded="false">
+        <button type="button" class="menu-bar hidden-md-up" data-toggle="collapse" data-target="#mobile-menu" aria-expanded="false">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
         <button type="button" class="language-choice" data-toggle="collapse" data-target="#language-menu" aria-expanded="false">
@@ -40,33 +40,31 @@
     </header>
   </section>
 
-  <div class="container">
+  <div class="container-fluid" id="core">
     <div class="row">
-      <div id="nav-menu">
-        <ul class="enter-menu hidden-md-down col-lg-3">
-          <h4><a href="#">Enter</a></h4>
-          <p class="text-center">.</p>
-          <h4>(Dé)placements</h4>
+      <nav class="nav flex-column">
+        <ul class="portfolio-menu hidden-sm-down py-1 col-md-5">
+          <h3 class="title-menu">Travaux</h3>
           <li>
-            <a href="#">
-              <p>25 mars 2017 - 04juin 2017</br>MRAC, Sérignan</p>
-            </a>
+            <a class="nav-link active" href="#">Works1</a>
           </li>
           <li>
-            <h4>Sino - French Young Artist</h4>
-            <p>1 Avril - 3 Mai, 2017</br>CAFA Art Museaum, Pekin</p>
+            <a class="nav-link" href="#">Works2</a>
           </li>
           <li>
-            <h4>Le 6B dessine son salon</h4>
-            <p>17 Mars -31 Mars 2017</br>commisariat, Marie Gautier et Claire Luna</p>
+            <a class="nav-link" href="#">Drawings</a>
           </li>
         </ul>
-      </div>
-      <div class="images col-lg-9">
-        <div class="main-image"></div>
-      </div>
+      </nav>
+      <ul class="images col-md-7">
+        <li>
+          <div class="main-image"></div>
+        </li>
+        <li>
+          <p id="description">.</br>1:12.5,</br>017, Bamboo, béton, acier, mixed media,</br> 300 x 310 x 300 cm. (Détail) © Aldo Paredes.</p>
+        </li>
+      </ul>
     </div>
-    <p id="description">.</br>1:12.5,</br>017, Bamboo, béton, acier, mixed media,</br> 300 x 310 x 300 cm. (Détail) © Aldo Paredes.</p>
   </div>
 
 
