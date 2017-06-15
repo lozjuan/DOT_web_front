@@ -33,17 +33,19 @@ html {
 
 .copyright {
   opacity: 0.5;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin-top: 10px; }
 
 .menu-bar {
   margin-left: auto; }
 
+.language-choice-portfolio,
 .language-choice,
 .menu-bar {
   background: transparent;
   border: transparent; }
 
+.language-choice-portfolio:focus,
 .language-choice:focus,
 .menu-bar:focus {
   outline: 0; }
@@ -79,12 +81,52 @@ html {
   font-size: 0.5rem;
   opacity: 0.8; }
 
-#nav-menu ul {
+#nav-menu ul,
+.nav ul {
   list-style: none; }
 
+.portfolio-menu,
+.portfolio-menu a {
+  color: black;
+  list-style: none; }
+
+#works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#image1 {
+  background-image: url("../images/image1.png");
+  height: 400px;
+  width: 600px; }
+
+#image2 {
+  background-image: url("../images/image2.png");
+  height: 400px;
+  width: 600px; }
+
+#image3 {
+  background-image: url("../images/image3.png");
+  height: 400px;
+  width: 600px; }
+
+.col-12 {
+  padding-right: 15px;
+  padding-left: 30px; }
+
+.col-12 div {
+  margin-bottom: 2rem; }
+
+@media (min-width: 670px) {
+  .col-12 {
+    padding-right: 15px;
+    padding-left: 60px; } }
 @media (min-width: 768px) {
   html {
     font-size: 16px; }
+
+  .language-choice-portfolio {
+    margin-left: auto; }
 
   .menu-bar {
     margin-left: auto; }
@@ -102,36 +144,49 @@ html {
   .enter-menu {
     min-width: 100%; }
 
-  .portfolio-menu li a {
-    text-decoration: none;
-    color: black; } }
+  .portfolio-menu {
+    position: fixed; }
+
+  .col-md-7 {
+    margin-left: 150px;
+    min-width: 100%; } }
 @media (min-width: 992px) {
-  .language-choice {
+  #language-menu {
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
     margin-left: auto; }
 
-  .row {
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+  #language-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  #language-menu ul li {
+    padding-right: 0.5rem; }
+
+  #language-menu ul a {
+    color: darkgrey; }
 
   .images {
     width: 100%;
     height: 478px; }
 
   #description {
-    text-align: end; } }
+    text-align: end; }
+
+  .col-lg-10 {
+    margin-left: 250px; } }
 @media (min-width: 1200px) {
-  .language-choice {
-    margin-left: auto; }
-
-  .row {
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
-
   .images {
     width: 100%;
     height: 568px; }
 
   #description {
-    text-align: end; } }
+    text-align: end; }
+
+  .portfolio-menu {
+    left: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

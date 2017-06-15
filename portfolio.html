@@ -18,7 +18,7 @@
         <button type="button" class="menu-bar hidden-md-up" data-toggle="collapse" data-target="#mobile-menu" aria-expanded="false">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
-        <button type="button" class="language-choice" data-toggle="collapse" data-target="#language-menu" aria-expanded="false">
+        <button type="button" class="language-choice-portfolio hidden-lg-up" data-toggle="collapse" data-target="#language-menu" aria-expanded="false">
           <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
         </button>
         <nav id="mobile-menu" class="collapse">
@@ -35,42 +35,36 @@
             <li><a href="#">English</a></li>
           </ul>
         </nav>
-        <p class="copyright">© DANIEL OTERO TORRES</p>
       </div>
     </header>
   </section>
 
-  <div class="container-fluid" id="core">
-    <div class="row">
-      <nav class="nav flex-column">
-        <ul class="portfolio-menu hidden-sm-down py-1 col-md-5">
-          <h3 class="title-menu">Travaux</h3>
-          <li>
-            <a class="nav-link active" href="#">Works1</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Works2</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Drawings</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="images col-md-7">
+  <div class="container-fluid">
+    <div class="row" id="works">
+      <ul class="portfolio-menu hidden-sm-down py-1 col-md-3 col-lg-2">
+        <h3 class="title-menu">Travaux</h3>
         <li>
-          <div class="main-image"></div>
+          <a class="nav-link active" href="#">Works1</a>
         </li>
         <li>
-          <p id="description">.</br>1:12.5,</br>017, Bamboo, béton, acier, mixed media,</br> 300 x 310 x 300 cm. (Détail) © Aldo Paredes.</p>
+          <a class="nav-link" href="#">Works2</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Drawings</a>
         </li>
       </ul>
+      <div class="row">
+        <ul class="col-12 col-md-7 col-lg-10">
+          <div id="image1"></div>
+          <div id="image2"></div>
+          <div id="image3"></div>
+        </ul>
+      </div>
     </div>
   </div>
 
-
   <footer>
-
-
+    <p class="copyright text-center">© DANIEL OTERO TORRES 2017</p>
   </footer>
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
