@@ -39,8 +39,8 @@ html {
 .menu-bar {
   margin-left: auto; }
 
-.language-choice-portfolio,
 .language-choice,
+.language-choice-portfolio,
 .menu-bar {
   background: transparent;
   border: transparent; }
@@ -71,12 +71,6 @@ html {
 .enter-menu li a {
   font-size: 1.8rem; }
 
-.images {
-  background: url("../images/home1.png") no-repeat center top;
-  background-size: cover;
-  height: 400px;
-  width: 600px; }
-
 #description {
   font-size: 0.5rem;
   opacity: 0.8; }
@@ -95,18 +89,27 @@ html {
   display: -ms-flexbox;
   display: flex; }
 
+.images {
+  background: url("../images/home1.png") no-repeat center top;
+  background-size: cover;
+  height: 400px;
+  width: 600px; }
+
 #image1 {
-  background-image: url("../images/image1.png");
+  background: url("../images/image1.png") no-repeat center top;
+  background-size: cover;
   height: 400px;
   width: 600px; }
 
 #image2 {
-  background-image: url("../images/image2.png");
+  background: url("../images/image2.png") no-repeat center top;
+  background-size: cover;
   height: 400px;
   width: 600px; }
 
 #image3 {
-  background-image: url("../images/image3.png");
+  background: url("../images/image3.png") no-repeat center top;
+  background-size: cover;
   height: 400px;
   width: 600px; }
 
@@ -117,6 +120,12 @@ html {
 .col-12 div {
   margin-bottom: 2rem; }
 
+@media (max-width: 396px) {
+  .images {
+    background: url("../images/home-mobile.png") no-repeat center top;
+    background-size: cover;
+    height: 268px;
+    width: 400px; } }
 @media (min-width: 670px) {
   .col-12 {
     padding-right: 15px;
